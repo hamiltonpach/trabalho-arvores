@@ -1,0 +1,87 @@
+Rotação Simples à Direita
+Objetivo
+Corrigir situações em que a árvore cresce excessivamente para a esquerda.
+Quando é utilizada
+Quando ocorre o caso conhecido como Esquerda-Esquerda (LL).
+Exemplo
+Antes:
+     30
+     /
+    20
+   /
+  10
+
+Depois:
+     20
+     /  \
+   10    30
+
+
+Rotação Simples à Esquerda
+Objetivo
+Corrigir situações em que a árvore cresce excessivamente para a direita.
+Quando é utilizada
+Quando ocorre o caso Direita-Direita (RR).
+Exemplo
+Antes:
+10
+  \
+   20
+     \
+      30
+
+Depois:
+     20
+     /  \
+   10    30
+
+
+Rotação Dupla
+Esquerda-Direita (LR)
+Ocorre quando o desequilíbrio está à esquerda, mas a inserção foi feita na subárvore direita do filho esquerdo.
+Antes:
+
+      30
+     /
+   10
+     \
+      20
+
+Depois:
+
+      20
+     /  \
+   10    30
+
+Direita-Esquerda (RL)
+Ocorre quando o desequilíbrio está à direita, mas a inserção foi feita na subárvore esquerda do filho direito.
+Antes:
+
+      10
+        \
+         30
+        /
+      20
+
+Depois:
+
+      20
+     /  \
+   10    30
+
+
+Inversão (Espelhamento)
+Conceito
+É uma operação que troca todos os filhos da esquerda pelos da direita, criando uma versão espelhada da árvore.
+Aplicação
+Pode ser utilizada em algoritmos que trabalham com simetria, representação gráfica e manipulação de estruturas hierárquicas.
+Exemplo
+Antes:
+     10
+     /  \
+    5   15
+
+Depois:
+     10
+     /  \
+   15    5
