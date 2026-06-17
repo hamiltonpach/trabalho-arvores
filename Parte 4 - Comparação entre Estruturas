@@ -1,0 +1,42 @@
+4 – Comparação entre Estruturas
+Estrutura
+Nº Máximo de Filhos
+Balanceamento
+Complexidade de Busca
+Complexidade de Inserção
+Vantagem Principal
+Desvantagem Principal
+Exemplo de Aplicação
+BST
+2
+Não possui balanceamento automático. Pode ficar desbalanceada dependendo da ordem de inserção dos elementos.
+O(log n) no melhor caso e O(n) no pior caso
+O(log n) no melhor caso e O(n) no pior caso
+Simples de entender e implementar
+Pode perder desempenho quando fica desbalanceada
+Árvores de busca básicas
+AVL
+2
+Sim. Mantém o equilíbrio através de rotações e do fator de balanceamento.
+O(log n)
+O(log n)
+Busca rápida e previsível
+Necessita de mais rotações para manter o balanceamento
+Sistemas com grande quantidade de consultas
+Rubro-Negra
+2
+Sim. Utiliza coloração dos nós e rotações para manter a árvore aproximadamente balanceada.
+O(log n)
+O(log n)
+Menos rotações que a AVL durante inserções e remoções
+Implementação mais complexa
+Bibliotecas e estruturas internas de sistemas
+N-ária
+N (vários filhos)
+Pode possuir ou não mecanismos de balanceamento, dependendo da implementação.
+Depende da estrutura utilizada
+Depende da estrutura utilizada
+Representa melhor hierarquias com muitos elementos
+Pode ser mais complexa de implementar e percorrer
+Sistemas de arquivos, menus e estrut
+ 
