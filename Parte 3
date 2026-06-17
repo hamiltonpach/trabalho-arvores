@@ -1,0 +1,8 @@
+Parte 3 – Aplicação Prática
+Jogos
+Entre as estruturas estudadas, a árvore N-ária é uma das mais adequadas para esse contexto. Isso ocorre porque um único elemento do jogo pode estar ligado a vários outros ao mesmo tempo. Um exemplo comum é uma árvore de habilidades, em que uma habilidade principal pode desbloquear diversas habilidades secundárias.
+A estrutura N-ária permite que cada nó possua vários filhos, tornando a representação dessas relações muito mais natural do que em uma árvore binária. Além disso, ela facilita a organização dos dados e a navegação entre diferentes caminhos disponíveis para o jogador.
+Em relação ao desempenho, a árvore N-ária permite acessar rapidamente as informações necessárias para verificar pré-requisitos, desbloquear habilidades e gerenciar a progressão do jogador. Como os dados ficam organizados hierarquicamente, o sistema consegue localizar e atualizar informações de forma eficiente.
+Portanto, a árvore N-ária é uma excelente escolha para sistemas de jogos, pois permite representar estruturas complexas de forma organizada, facilita a navegação entre diferentes possibilidades e oferece flexibilidade para lidar com múltiplas ramificações dentro do jogo.
+ 
+ 
